@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minisatışuygulaması", "minisatışuygulaması.csproj", "{8DDA3B9D-6412-406B-8FF1-00B8A891E633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DDA3B9D-6412-406B-8FF1-00B8A891E633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDA3B9D-6412-406B-8FF1-00B8A891E633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDA3B9D-6412-406B-8FF1-00B8A891E633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDA3B9D-6412-406B-8FF1-00B8A891E633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

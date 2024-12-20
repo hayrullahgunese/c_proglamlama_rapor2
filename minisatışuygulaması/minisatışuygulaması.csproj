@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8DDA3B9D-6412-406B-8FF1-00B8A891E633}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>minisatışuygulaması</RootNamespace>
+    <AssemblyName>minisatışuygulaması</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fidanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet61.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet61.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fidanDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fidanDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="fidanDataSet.xsc">
+      <DependentUpon>fidanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet.xss">
+      <DependentUpon>fidanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet1.xsc">
+      <DependentUpon>fidanDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet1.xss">
+      <DependentUpon>fidanDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet10.xsc">
+      <DependentUpon>fidanDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet10.xss">
+      <DependentUpon>fidanDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet11.xsc">
+      <DependentUpon>fidanDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet11.xss">
+      <DependentUpon>fidanDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet12.xsc">
+      <DependentUpon>fidanDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet12.xss">
+      <DependentUpon>fidanDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet13.xsc">
+      <DependentUpon>fidanDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet13.xss">
+      <DependentUpon>fidanDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet2.xsc">
+      <DependentUpon>fidanDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet2.xss">
+      <DependentUpon>fidanDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet3.xsc">
+      <DependentUpon>fidanDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet3.xss">
+      <DependentUpon>fidanDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet4.xsc">
+      <DependentUpon>fidanDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet4.xss">
+      <DependentUpon>fidanDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet5.xsc">
+      <DependentUpon>fidanDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet5.xss">
+      <DependentUpon>fidanDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet61.xsc">
+      <DependentUpon>fidanDataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet61.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet61.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet61.xss">
+      <DependentUpon>fidanDataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet7.xsc">
+      <DependentUpon>fidanDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet7.xss">
+      <DependentUpon>fidanDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet8.xsc">
+      <DependentUpon>fidanDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet8.xss">
+      <DependentUpon>fidanDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet9.xsc">
+      <DependentUpon>fidanDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="fidanDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fidanDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fidanDataSet9.xss">
+      <DependentUpon>fidanDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

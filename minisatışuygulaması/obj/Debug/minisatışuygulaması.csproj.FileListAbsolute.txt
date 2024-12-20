@@ -1,0 +1,10 @@
+C:\Users\Haye\source\repos\minisatışuygulaması\bin\Debug\minisatışuygulaması.exe.config
+C:\Users\Haye\source\repos\minisatışuygulaması\bin\Debug\minisatışuygulaması.exe
+C:\Users\Haye\source\repos\minisatışuygulaması\bin\Debug\minisatışuygulaması.pdb
+C:\Users\Haye\source\repos\minisatışuygulaması\obj\Debug\minisatışuygulaması.csproj.AssemblyReference.cache
+C:\Users\Haye\source\repos\minisatışuygulaması\obj\Debug\minisatışuygulaması.Form1.resources
+C:\Users\Haye\source\repos\minisatışuygulaması\obj\Debug\minisatışuygulaması.Properties.Resources.resources
+C:\Users\Haye\source\repos\minisatışuygulaması\obj\Debug\minisatışuygulaması.csproj.GenerateResource.cache
+C:\Users\Haye\source\repos\minisatışuygulaması\obj\Debug\minisatışuygulaması.csproj.CoreCompileInputs.cache
+C:\Users\Haye\source\repos\minisatışuygulaması\obj\Debug\minisatışuygulaması.exe
+C:\Users\Haye\source\repos\minisatışuygulaması\obj\Debug\minisatışuygulaması.pdb
